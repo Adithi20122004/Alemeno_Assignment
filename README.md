@@ -27,14 +27,7 @@ flowchart LR
     API -- read --> PG
 ```
 
-The same diagram in **draw.io / plain text**:
-
-```
-[Client] -> [FastAPI] -> [Redis Queue] -> [Celery Worker] -> [Gemini API]
-                                          |
-                                          v
-                                       [PostgreSQL]
-```
+T\docs\architecture.png
 
 ---
 
@@ -208,8 +201,6 @@ Sample results payload (truncated):
 ---
 
 ## Screenshots
+docs/swagger.png
+docs/results.png
 
-_Place screenshots of Swagger UI (`/docs`) and a completed job's `/results` response here._
-
-- `docs/swagger.png`
-- `docs/results.png`

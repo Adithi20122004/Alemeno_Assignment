@@ -27,7 +27,7 @@ flowchart LR
     API -- read --> PG
 ```
 
-T\docs\architecture.png
+![Architecture](docs/architecture.png)
 
 ---
 
@@ -201,6 +201,6 @@ Sample results payload (truncated):
 ---
 
 ## Screenshots
+
 docs/swagger.png
 docs/results.png
-

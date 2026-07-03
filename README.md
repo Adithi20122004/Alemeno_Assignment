@@ -202,5 +202,5 @@ Sample results payload (truncated):
 
 ## Screenshots
 
-docs/swagger.png
-docs/results.png
+[Screenshots](docs/swagger.png)
+[Screenshots](docs/results.png)
